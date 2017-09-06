@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #232323;
+    font-family: "lucida handwriting";
+}
+.square{
+    background: yellow;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 15%;
+    transition: background 0.3s;
+    position: relative;
+    cursor: pointer;
+}
+.container{
+    max-width: 45%;
+    margin: 15px auto;
+}
+#topBanner {
+    background-color: steelblue;
+}
+h1{
+    color: white;
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase; 
+    line-height: 1.2;
+    padding: 20px 0;
+}
+#colorDisplay {  
+    font-size: 200%;
+}
+.whiteLine {
+    color: inherit;
+    background: white;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+button {
+    color: steelblue;
+    border: none;
+    padding: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 100%;
+    background: none;
+    letter-spacing: 1px;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
+}
+.main-container {
+    display: block;
+     margin-top: 0 auto;
+}
+button:hover {
+    background: steelblue;
+    color: white;
+    transition: all 0.3s;
+}
+.selected {
+    background: steelblue;
+    color: white;
+}
+.messageDisplay {
+    display: inline-block;
+    width: 20%;
+}
+.player {
+    width: 18%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 15%;
+    transition: background 0.3s;
+	position: absolute;
+    display: inline-block;
+    color: white;
+    font-family: "Arial";
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1;
+} 
+.scoreCounter {
+    font-size: 100px;
+    color: steelblue;
+    line-height: 2;
+}
